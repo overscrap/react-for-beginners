@@ -2,7 +2,7 @@
 <html>
     <body>
         <span>
-            TotalCount : 0
+            Total clicks : 0
         </span>
         <button id="btn">click!</button>        
     </body>
@@ -12,7 +12,7 @@
         let count = 0;
         const handleBtn = () => {
             count += 1;
-            span.innerText = `TotalCount : ${count}`;
+            span.innerText = `Total clicks : ${count}`;
         }
 
         btn.addEventListener("click", handleBtn);
